@@ -1,0 +1,43 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1 id="h1">Hello..!!..</h1>
+<button type="text" onclick="show()">Click here to Change th text</button>
+
+<script>
+             var i="";
+            var j=0;
+            var a= "Hello!...";
+            var b="Well done!...";
+            function show()
+            {
+                if(j%2==0)
+                {
+                    i=i+a;
+                    j++;
+                }
+                else{
+                    i=i+b;
+                    j++;
+                }
+                document.getElementById('h1').innerHTML=i;
+            }
+/*var i=0;
+function show(){
+
+if(i%2==0)
+{
+var x="helo..."
+}
+else{
+var x="weldone...."
+}
+i++;
+document.getElementById("h1").innerHTML=x;
+show();
+}*/
+</script>
+</body>
+</html>
